@@ -1,0 +1,28 @@
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 2vw;
+    height:90px;
+    /* border:1px solid black */
+}
+
+.stickylogo>img{
+    border: 3px solid #4d4d4d;
+    border-radius: 50%;
+}
+
+.navItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+    text-decoration: underline;
+}
+
+.navItem>div>a{
+    color: #414f6b;
+    font-weight: 700;
+}

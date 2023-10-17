@@ -1,0 +1,37 @@
+
+#header{
+    background-image: url("../pictures/Image.png");
+    background-size: cover;
+    height:650px;
+    width:100%;
+    background-repeat: no-repeat;
+    /* background-position: 5%; */
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 2vw;
+    height:90px;  
+    /* gap:870px; */
+    border: 1px solid  black; 
+}
+
+.logo>img{
+    border-radius: 50%;
+}
+
+.navItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: underline;
+}
+
+.navItem>div>a{
+    color: white;
+    font-weight: 700;
+}
